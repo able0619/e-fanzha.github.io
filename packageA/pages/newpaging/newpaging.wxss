@@ -1,0 +1,65 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content view{
+    width: 95%;
+    margin-bottom: 20rpx;
+}
+.content text{
+    width: 95%;
+    margin-bottom: 20rpx;
+}
+
+.content .title,
+.content .time{
+    text-align: center;
+}
+
+.content .title{
+    font-size: 40rpx;
+    font-weight: bold;
+    text-align: left;
+}
+
+.content .time{
+    font-size: 26rpx;
+}
+
+.content .hr{
+    width: 100%;
+    border-top: rgb(214, 211, 211) 1px solid;
+}
+
+.content .nian{
+    height: 760rpx;
+}
+
+.content .hollow{
+    height: 80rpx;
+}
+
+.content .rail{
+    height: 80rpx;
+    width: 100%;
+    background: rgb(43, 147, 245);
+    position: fixed;
+    margin-bottom: 0;
+    bottom: 0;
+}
+
+.content .rail .usercollect{
+    height: 80rpx;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.content .rail .usercollect image{
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin-right: 50rpx;
+    margin-top: 10rpx;
+}

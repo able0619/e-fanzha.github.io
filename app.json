@@ -1,0 +1,53 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/news/news",
+        "pages/knowledge/knowledge",
+        "pages/myself/myself"
+    ],
+    "subpackages": [
+      {
+        "root": "packageA",
+        "pages": [
+          "pages/newpaging/newpaging",
+          "pages/newpaging2/newpaging2",
+          "pages/collectionpage/collectionpage"
+        ]
+      }],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#0D6CE0",
+        "navigationBarTitleText": "E起反诈",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/static/images/index.png",
+                "selectedIconPath": "/static/images/index-action.png"
+            },
+            {
+                "pagePath": "pages/knowledge/knowledge",
+                "text": "知识库",
+                "iconPath": "/static/images/konwledge.png",
+                "selectedIconPath": "/static/images/knowledge-action.png"
+            },
+            {
+                "pagePath": "pages/news/news",
+                "text": "新闻",
+                "iconPath": "/static/images/new.png",
+                "selectedIconPath": "/static/images/new-action.png"
+            },
+            {
+                "pagePath": "pages/myself/myself",
+                "text": "个人中心",
+                "iconPath": "/static/images/myself.png",
+                "selectedIconPath": "/static/images/myself-action.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

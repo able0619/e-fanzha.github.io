@@ -1,0 +1,78 @@
+    <view  class="knowledge">
+    <view class="knowledgelable">
+        <view class="viewStype {{addClass===1 ?'actionStype':''}}" bindtap="addClass" data-addClass="1">诈骗类型</view>
+        <view class="viewStype {{addClass===2 ?'actionStype':''}}" bindtap="addClass" data-addClass="2">易受骗人群</view>
+        <view class="viewStype {{addClass===3 ?'actionStype':''}}" bindtap="addClass" data-addClass="3">法律知识</view>
+        <view class="viewStype {{addClass===4 ?'actionStype':''}}" bindtap="addClass" data-addClass="4">反诈心得</view>
+    </view>
+    <view class="Knowledgeintroduction">
+        <view class="leixing" wx:if="{{show}}">
+            <navigator class="box">
+                <image></image>
+                <view>电信诈骗</view>
+            </navigator>
+            <navigator class="box">
+                <image></image>
+                <view>电信诈骗</view>
+            </navigator>
+            <navigator class="box">
+                <image></image>
+                <view>电信诈骗</view>
+            </navigator>
+            <navigator class="box">
+                <image></image>
+                <view>电信诈骗</view>
+            </navigator>
+            <navigator class="box">
+                <image></image>
+                <view>电信诈骗</view>
+            </navigator>
+            <navigator class="box">
+                <image></image>
+                <view>电信诈骗</view>
+            </navigator>
+            <navigator class="box">
+                <image></image>
+                <view>电信诈骗</view>
+            </navigator>
+            <navigator class="box">
+                <image></image>
+                <view>电信诈骗</view>
+            </navigator>
+            <navigator class="box">
+                <image></image>
+                <view>电信诈骗</view>
+            </navigator>
+        </view>
+        <view class="renqun" wx:if="{{show2}}">
+            <navigator class="ren">
+                <view class="left">
+                    <view class="title">大学生</view>
+                    <image class="image" src="/static/images/student.jpg"></image>
+                </view>
+                <view class="shu"></view>
+                <view class="right">当今的大学生大多是从学校走进学校，进入大学后吃住在学校.....</view>
+            </navigator>
+            <view class="hr"></view>
+            <navigator class="ren">
+                <view>老年人</view>
+                <view class="image"></view>
+            </navigator>
+            <view class="hr"></view>
+            <navigator class="ren">dd
+                <view class="image"></view>
+            </navigator>
+            <view class="hr"></view>
+            <navigator class="ren">dd
+                <view class="image"></view>
+            </navigator>
+            <view class="hr"></view>
+        </view>
+        <view class="falv" wx:if="">
+            
+        </view>
+        <view class="xinde" wx:if="">
+            
+        </view>
+    </view>
+ </view>

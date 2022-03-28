@@ -1,0 +1,20 @@
+<view class="content">
+    <text class="title" user-select>“南通警方破获涉冬奥诈骗案 案值逾千万元</text>
+    <view class="time">2022-2-22丨来源：新华日报</view>
+    <view class="hr"></view>
+    <text user-select>南通、如东两级公安机关近日成功破获一起特大假冒冬奥知识传播活动诈骗案，抓获涉案人员19名，案值逾千万元。</text>
+    <image src="/packageA/static/news/nian.png" class="nian"></image>
+    <text user-select>2月8日，有网友向南通市公安局网安支队举报，一场名为“‘魅力冬奥’冬奥知识传播助力大使活动”的线上答题在本地微信群、朋友圈内传播开来，涉嫌非法搜集公民个人信息和诈骗。</text>
+    <image src="/packageA/static/news/qing.png"></image>
+    <text user-select>2月16日，南通、如东两级公安机关抽调20余名精干警力，兵分两路，分别在重庆、北京将19名涉案人员全部抓获归案。经查，今年1月，犯罪嫌疑人李某辉伙同汤某峰等人，在没有取得冬奥组委会官方授权情况下，开发“竞赛平台”，设计积分规则和活动海报，在公众号、微信群、朋友圈等推广，在全国范围内发起“‘魅力冬奥’冬奥知识传播助力大使活动”，诱骗各大中专院校在校学生进入“竞赛平台”，填写姓名、手机号码、身份证号码、联系地址等个人信息，并从中收取28元至36元不等的“证书工本费”牟利。</text>
+    <image src="/packageA/static/news/zheng.png"></image>
+    <text user-select>截至案发，该犯罪团伙已非法获取全国大中专院校在校学生个人信息350余万条，骗取部分参与者“证书工本费”总计1000万余元。（胡兰兰）</text>
+    <text user-select>在此告诫每个大中专院校的学生们不要轻易相信网络上的证书，否则就会被骗取信息和金钱。</text>
+    <view class="hollow"></view>
+    <view class="rail">
+        <view class="usercollect">
+        <image src="/packageA/static/news/usercollect/not_usercollect.svg" wx:if="{{!isCollect}}" bindtap="collect"></image>
+        <image src="/packageA/static/news/usercollect/usercollect.svg" wx:if="{{isCollect}}" bindtap="collect"></image>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,24 @@
+<view class="textNews">
+    <navigator class="item" url="/packageA/pages/newpaging/newpaging">
+        <view class="title">
+            {{newTitle}}
+        </view>
+        <view class="hr"></view>
+        <view class="time">
+            {{newTime}}
+        </view>
+    </navigator>
+    <navigator class="item" url="/packageA/pages/newpaging2/newpaging2">
+        <view class="title">
+            警惕“兼职”诈骗！南明公安分局打击洗钱犯罪团伙
+        </view>
+        <view class="hr"></view>
+        <view class="time">
+            2022-3-07丨来源：人民网-贵州频道
+        </view>
+    </navigator>
+    <view class="item"></view>
+    <view class="item"></view>
+    <view class="item"></view>
+    <view class="item"></view>
+</view>

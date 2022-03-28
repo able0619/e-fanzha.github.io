@@ -1,0 +1,26 @@
+<view>
+    <!--轮廓图-->
+    <swiper class="banners" indicator-dots indicator-color="ivory" indicator-active-color="#d43c33" circular autoplay interval="3000">
+        <swiper-item>
+            <image src="https://wtycloud.oss-cn-beijing.aliyuncs.com/test/banner1.png"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="/static/images/banner/banner2.png"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="/static/images/banner/banner3.png"></image>
+        </swiper-item>
+    </swiper>
+    <!-- 小游戏 -->
+    <view>
+        <view class="game">
+            <text class="more">小游戏</text>
+        </view>
+    </view>
+    <!--数据-->
+    <view>
+        <view class="data">
+            <text class="more1">数据</text>
+        </view>
+    </view>
+</view>

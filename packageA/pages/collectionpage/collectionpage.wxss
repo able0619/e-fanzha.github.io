@@ -1,0 +1,30 @@
+.textNews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+  }
+  .textNews .item{
+    height: 250rpx;
+    width: 92%;
+    margin-top: 50rpx;
+    border-radius: 15rpx;
+    border: whitesmoke 2px solid;
+    border-right: bisque 7px solid;
+    box-shadow: whitesmoke -8rpx 8rpx 10rpx;
+  }
+  
+  .textNews .item .title{
+    font-size: 38rpx;
+    margin-top: 20rpx;
+    margin-left: 15rpx;
+  }
+  
+  .textNews .item .hr{
+    border-top: 1rpx black solid;
+    margin: 30rpx 0;
+  }
+  
+  .textNews .item .time{
+    float: right;
+  }

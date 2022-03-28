@@ -1,0 +1,90 @@
+.knowledge{
+    height: 100vh;
+    width: 100vm;
+    background: lightgray;
+}
+.knowledge .knowledgelable{
+    height: 800rpx;
+    width: 20%;
+    background: white;
+    position: fixed;
+    text-align: center;
+}
+.knowledge .Knowledgeintroduction{
+    height: 100vh;
+    width: 75%;
+    background: beige;
+    float: right;
+    margin-right: 20rpx;
+}
+.knowledge .knowledgelable .viewStype{
+    height: 100rpx;
+    font-size: 30rpx;
+    line-height: 100rpx;
+    box-sizing: border-box;
+}
+.knowledge .knowledgelable .actionStype{
+    background: lightgray;
+    border-bottom: 2px red solid;
+}
+
+.knowledge .Knowledgeintroduction .leixing{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.knowledge .Knowledgeintroduction .leixing .box image{
+    height: 150rpx;
+    width: 150rpx;
+    background: black;
+}
+
+.knowledge .Knowledgeintroduction .leixing .box view{
+    text-align: center;
+}
+
+.knowledge .Knowledgeintroduction .renqun{
+    height: 100vh;
+}
+
+.hr{
+    border-top: 1rpx black solid;
+    margin: 15rpx 0;
+  }
+
+.shu{
+    border-left:  1rpx black solid;
+    height: 200rpx;
+}
+
+.knowledge .Knowledgeintroduction .renqun .ren{
+    display: flex;
+    height: 200rpx;
+    width: 100%;
+    padding-top: 15rpx;
+    justify-content: space-around;
+}
+
+.knowledge .Knowledgeintroduction .renqun .ren .left {
+    padding-left: 15rpx;
+}
+
+.knowledge .Knowledgeintroduction .renqun .ren .left .title{
+    width: 150rpx;
+    font-weight: bold;
+    text-align: center;
+}
+
+.knowledge .Knowledgeintroduction .renqun .ren .right{
+    width: 300rpx;
+    line-height: 50rpx;
+}
+
+.knowledge .Knowledgeintroduction .renqun .ren .image{
+    background: red;
+    height: 150rpx;
+    width: 180rpx;
+}

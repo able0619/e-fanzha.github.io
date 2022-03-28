@@ -1,0 +1,78 @@
+.myself{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+}
+
+.myself .myImage{
+    width: 100%;
+    height: 370rpx;
+}
+
+.myself .user{
+    height: 700rpx;
+    width: 90%;
+    margin-top: -10rpx;
+    background: rgb(218, 213, 213);
+    border: whitesmoke 1rpx solid;
+  box-shadow: rgb(218, 213, 213) -8rpx 8rpx 10rpx;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+}
+
+.myself .user button,
+.myself .user .userName{
+    margin-top: 10rpx;
+}
+
+.myself .user .userHead{
+    background: blue;
+    height: 120rpx;
+    width: 120rpx;
+    border-radius: 100%;
+    margin-top: 20rpx;
+    line-height: 120rpx;
+    text-align: center;
+    font-weight: bold;
+}
+
+.myself .user .userHead image{
+    height: 120rpx;
+    width: 120rpx;
+    border-radius: 100%;
+}
+
+.myself .user .userName{
+    font-size: 28rpx;
+}
+
+.myself .user .userHistory,
+.myself .user .userCollect,
+.myself .user .datum{
+    height: 100rpx;
+    width: 90%;
+    background: white;
+    margin-top: 40rpx;
+    font-size: 38rpx;
+    line-height: 100rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border: whitesmoke 1rpx solid;
+    box-shadow: white -4rpx 4rpx 15rpx;
+}
+.myself .user .userHistory view,
+.myself .user .userCollect view,
+.myself .user .datum view{
+    margin-left: 30rpx;
+}
+
+.myself .user .userHistory image,
+.myself .user .userCollect image,
+.myself .user .datum image{
+    height: 50rpx;
+    width: 50rpx;
+    margin-right: 30rpx;
+}

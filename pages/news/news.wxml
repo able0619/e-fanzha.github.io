@@ -1,0 +1,42 @@
+<view class="new">
+    新闻+
+</view>
+
+<scroll-view class="newImageS" scroll-x scroll-with-animation='true'>
+    <navigator url="/packageA/pages/newpaging/newpaging">
+        <view class="imageTitle">{{newTitle}}</view>
+        <image src="/static/images/banner/banner1.png"></image>
+    </navigator>
+    <navigator url="/packageA/pages/newpaging2/newpaging2">
+        <view class="imageTitle">警惕“兼职”诈骗！南明公安分局打击洗钱犯罪团伙</view>
+        <image src="/static/images/banner/banner2.png"></image>
+    </navigator>
+    <navigator>
+        <image src="/static/images/banner/banner3.png"></image>
+    </navigator>
+</scroll-view >
+
+<view class="textNews">
+    <navigator class="item" url="/packageA/pages/newpaging/newpaging">
+        <view class="title">
+            {{newTitle}}
+        </view>
+        <view class="hr"></view>
+        <view class="time">
+            {{newTime}}
+        </view>
+    </navigator>
+    <navigator class="item" url="/packageA/pages/newpaging2/newpaging2">
+        <view class="title">
+            警惕“兼职”诈骗！南明公安分局打击洗钱犯罪团伙
+        </view>
+        <view class="hr"></view>
+        <view class="time">
+            2022-3-07丨来源：人民网-贵州频道
+        </view>
+    </navigator>
+    <view class="item"></view>
+    <view class="item"></view>
+    <view class="item"></view>
+    <view class="item"></view>
+</view>

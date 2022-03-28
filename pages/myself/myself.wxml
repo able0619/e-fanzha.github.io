@@ -1,0 +1,23 @@
+<view class="myself">
+    <image src="/static/images/banner/myself_Efanzha.png" class="myImage"></image>
+    <view class="user">
+        <view class="userHead">
+            <view wx:if="{{!hasUserInfo}}">未登录</view>
+            <image src="{{userInfo.avatarUrl}}">
+        </image></view>
+        <button open-type="getUserInfo" bindtap="getUserProfile" wx:if="{{!hasUserInfo}}">登陆</button>
+        <view class="userName" wx:if="{{hasUserInfo}}">{{userInfo.nickName}}</view>
+        <navigator class="userHistory">
+            <view>历史浏览</view>
+            <image src="/static/images/next.png"></image>
+        </navigator>
+        <navigator url="/packageA/pages/collectionpage/collectionpage" class="userCollect">
+            <view>收藏</view>
+            <image src="/static/images/next.png"></image>
+        </navigator>
+        <navigator class="datum">
+            <view>参考资料</view>
+            <image src="/static/images/next.png"></image>
+        </navigator>
+    </view>
+</view>
